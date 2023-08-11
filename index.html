@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <style>
+    body {
+      background-image: linear-gradient(
+        black,
+        white
+      );
+      height: 100vh;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    #conteudo {
+      display: inherit;
+      flex-direction: inherit;
+      align-items: inherit;
+    }
+  
+
+    #texto {
+      font-family: sans-serif;
+      width: 100%;
+      border: solid 3px black;
+      border-radius: 10px;
+      padding: 3px;
+    }
+
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autocapitalizar</title>
+</head>
+<body>
+  <div id="conteudo">
+    <h1>* Autocapitalizar *</h1>
+    <input type="text" id="texto" placeholder="Aperte 'enter' ao final do último nome">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

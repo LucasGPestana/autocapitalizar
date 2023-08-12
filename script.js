@@ -31,4 +31,4 @@ function capitalize(evento) {
   }
 }
 
-texto.addEventListener("keypress", capitalize)
+texto.addEventListener("keydown", capitalize)
